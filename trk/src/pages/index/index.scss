@@ -1,0 +1,30 @@
+
+.waterfall{
+ 
+    column-count: 3;   //显示两列
+    // column-gap: normal;  //列间距
+}
+.waterfall .item{ 
+    break-inside: avoid;   //列里面的项不折断 
+}
+ 
+ .add{
+     position: fixed;
+     right: 150px;
+     bottom: 100px;
+ }
+
+ .add2{
+    position: fixed;
+    right: 50px;
+
+    bottom: 100px;
+}
+
+
+.add3{
+    position: fixed;
+    left: 50px;
+
+    bottom: 100px;
+}
